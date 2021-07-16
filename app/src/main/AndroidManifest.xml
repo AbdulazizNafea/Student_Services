@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abdulaziz.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/theem_icon"
+        android:label="خدمات الطلاب"
+        android:roundIcon="@mipmap/theem_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".start_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".servicepage" />
+        <activity android:name=".changepage" />
+        <activity android:name=".myclasspage" />
+        <activity android:name=".deletepage" />
+        <activity android:name=".shqpage" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".rayat" />
+        <activity android:name=".card_issuance" />
+        <activity android:name=".card_rest_password" />
+        <activity android:name=".card_reward" />
+        <activity android:name=".card_problems" />
+        <activity android:name=".Main_Card_Page" />
+        <activity android:name=".aboutCollege_page" />
+        <activity android:name=".twjeeh_page" />
+        <activity android:name=".blackbord_page"></activity>
+    </application>
+
+</manifest>

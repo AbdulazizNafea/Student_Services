@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fillViewport="false"
+    android:background="@drawable/homepage"
+    android:orientation="vertical"
+    tools:context=".servicepage">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="145dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bt2"
+                    android:layout_width="167dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/card"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="بطاقات الصراف"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bt4"
+                    android:layout_width="167dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/sq"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="الإقتراحات والشكاوى"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bt6"
+                    android:layout_width="167dp"
+                    android:layout_height="140dp"
+                    android:text="التدريب التعاوني"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/bt8"
+                    android:layout_width="167dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/service_blackboared"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="الدعم الفني للبلاك بورد"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bt9"
+                    android:layout_width="167dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/chang"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="تغيير التخصص"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="167dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/del"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="حذف مقرر دراسي"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bt1"
+                    android:layout_width="167dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/where"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="أين قاعتي ؟"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/bt3"
+                    android:layout_width="167dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/support"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="التوجيه والإرشاد"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/bt7"
+                    android:layout_width="167dp"
+                    android:layout_height="140dp"
+                    android:text="تحديث بيانات الطلاب"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/bt10"
+                    android:layout_width="167dp"
+                    android:layout_height="140dp"
+                    android:text="؟؟"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
